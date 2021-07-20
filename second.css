@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: #000000;
+    background: -webkit-radial-gradient(center, #000000, #1E0406);
+    background: -moz-radial-gradient(center, #000000, #1E0406);
+    background: radial-gradient(ellipse at center, #000000, #1E0406);
+
+    height: 100%;
+    
+}
+
+
+#name, #options{
+    color: cyan;
+}
+
+#navbar {
+    border-bottom: 1px solid #fb060ecd;
+}
+
+section {
+    height: 60%;
+    color: cyan;
+}
+
+section.container {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#title {
+    border: 1px solid #fb060e8d;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    padding-left: 2px;
+}
+
+
+.container .row span {
+    width: 20%;
+    padding:0 0;
+    color: rgba(255, 170, 0, 0.838);
+    margin-bottom: 1%;
+}
