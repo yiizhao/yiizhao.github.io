@@ -9,3 +9,10 @@ $(".card").hover(
         $(this).css("transform", "")
     }
 );
+
+// Click card to jump to project website
+$("#potatoes").click(
+    function() {
+        window.open("https://cryptic-beach-67822.herokuapp.com");
+    }
+);
