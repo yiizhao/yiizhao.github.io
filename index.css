@@ -1,0 +1,60 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: #000000;
+    background: -webkit-radial-gradient(center, #000000, #1E0406);
+    background: -moz-radial-gradient(center, #000000, #1E0406);
+    background: radial-gradient(ellipse at center, #000000, #1E0406);
+
+    height: 100%;
+    
+}
+
+#name, #options{
+    color: cyan;
+}
+
+#navbar {
+    border-bottom: 1px solid #fb060ecd;
+}
+
+
+
+section {
+    height: 60%;
+}
+
+section.container.row {
+    padding: 0px auto;
+    margin: 0px auto;
+}
+
+.title {
+    color: #ea5459fc;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.card {
+    height: 70%;
+    background-color: transparent;
+    position: relative;
+    border: 1px solid #fb060e8d;
+    transition: transform .2s;
+}
+
+.card:before {
+    content: '';
+    position: absolute;
+    bottom: 0; right: 0;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid #fb060e8d;
+    width: 0;
+}
+
+.card img {
+    height: 100%;
+}
+
